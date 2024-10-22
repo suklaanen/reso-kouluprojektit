@@ -9,5 +9,5 @@ data class DiceRollState(
     val penalty: Int = 0,
     val specialMessageSuccess: String = "",
     val specialMessageFailure: String = "",
-    val imageResource: Int = R.drawable.d201
+    //val imageResource: Int = R.drawable.d201
 )

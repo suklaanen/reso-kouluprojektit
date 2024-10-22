@@ -45,7 +45,7 @@ fun CustomBottomAppBar(navController: NavController) {
             )
             Spacer(modifier = Modifier.size(16.dp))
             BottomNavigationButton(
-                icon = { Icon(Icons.Filled.Casino, contentDescription = "News", modifier = Modifier.size(30.dp)) },
+                icon = { Icon(Icons.Filled.Newspaper, contentDescription = "News", modifier = Modifier.size(30.dp)) },
                 onClick = { navController.navigate("navigateMeetings") }
             )
         }

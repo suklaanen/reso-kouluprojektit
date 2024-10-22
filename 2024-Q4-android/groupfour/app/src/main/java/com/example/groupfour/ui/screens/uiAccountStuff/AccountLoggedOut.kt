@@ -8,6 +8,7 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Email
 import androidx.compose.material.icons.filled.Lock
+import androidx.compose.material.icons.filled.Person
 import androidx.compose.material3.Icon
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -52,7 +53,13 @@ fun LoggedOutView(navController: NavController) {
             CommonText(
                 value = loginUsername,
                 onValueChange = { loginUsername = it },
-                editable = true
+                editable = true,
+                trailingIcon = {
+                    Icon(
+                        imageVector = Icons.Default.Person,
+                        contentDescription = "Username Icon"
+                    )
+                }
             )
             CommonText(
                 value = loginPassword,
@@ -89,7 +96,13 @@ fun LoggedOutView(navController: NavController) {
             CommonText(
                 value = registerUsername,
                 onValueChange = { registerUsername = it },
-                editable = true
+                editable = true,
+                trailingIcon = {
+                    Icon(
+                        imageVector = Icons.Default.Person,
+                        contentDescription = "Username Icon"
+                    )
+                }
             )
             CommonText(
                 value = "Sähköposti:",
