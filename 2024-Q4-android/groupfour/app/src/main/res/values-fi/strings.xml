@@ -1,0 +1,78 @@
+<resources>
+    <!--
+    ** About String Resources Usage **
+    - app_name      : Application's name
+    - navi...       : Navigation links
+    - title...      : Titles for sections
+    - textbox...    : Text content in textboxes
+    -->
+
+    <string name="app_name">Puistotreffit koirille</string>
+    <string name="titleApp">Puistotreffit koirille</string>
+    <string name="titleHome">Tervetuloa käyttämään Puistotreffit koirille -palvelua!</string>
+    <string name="titleAccountPage">Oma tili</string>
+    <string name="titleAccountDelete"></string>
+    <string name="titleAccountVerify"></string>
+    <string name="titleAccountForgotten">Unohditko salasanan?</string>
+    <string name="titleAccountCreate"></string>
+    <string name="titleAccountLogin"></string>
+    <string name="titleAccountChangePassword"></string>
+    <string name="titleAccountMyDogs"></string>
+    <string name="titleAccountMyMeetings"></string>
+    <string name="titleDogProfileCreate"></string>
+    <string name="titleDogProfileModify"></string>
+    <string name="titleDogProfileDelete"></string>
+    <string name="titleParkAddNew"></string>
+    <string name="titleParkFind"></string>
+    <string name="titleMeetingFind"></string>
+    <string name="titleMeetingCreate"></string>
+    <string name="titleMeetingModify"></string>
+    <string name="titleMeetingDelete"></string>
+    <string name="titleMeetingJoin"></string>
+    <string name="titleMeetingRemoveMe">Poistu leikkitreffeiltä</string>
+    <string name="titleMeetingCurrentMeeting"></string>
+    <string name="titleMeetingCurrentDogs"></string>
+    <string name="titleParkdates">Puistotreffit</string>
+
+    <string name="titleNews">Uutisia pelistä Baldur\'s Gate</string>
+
+    <string name="textboxHome">
+        Pocket Gate on yksinkertainen sovellus Baldur\'s Gate III -faneille.\n
+\nTäältä löydät viimeisimmät uutiset ja söpön D20-nopparollerin, jossa on useita satunnaisesti valittuja värejä sekä bonus- ja rangaistussysteemi.\n
+\nKoe sen kautta kriittisen onnistumisen jännitys tai kohtaa kriittisen epäonnistumisen seuraukset!
+    </string>
+    <string name="textboxAboutLanguage">
+    Voit muuttaa sovelluksen kieltä hampparivalikon kautta (FI / EN). Uutiset tulevat kuitenkin vain englanniksi.
+    </string>
+    <string name="textboxRoll">Heitä !</string>
+    <string name="textboxBonus">Lisää Bonus</string>
+    <string name="textboxPenalty">Lisää Rangaistus</string>
+    <string name="textboxLoading">Lataa ...</string>
+    <string name="textboxError">Virhe: $error</string>
+
+    <string name="textboxBottomBar">Rollaa, jei !</string>
+
+    <string name="criticalSuccess">Kriittinen onnistuminen!</string>
+    <string name="criticalFailure">Kriittinen epäonnistuminen!</string>
+
+    <string name="naviHome">Alku</string>
+    <string name="naviRegister"></string>
+    <string name="naviLogin"></string>
+    <string name="naviAccount"></string>
+    <string name="naviParks"></string>
+    <string name="naviMeetings"></string>
+    <string name="naviMyDogs"></string>
+    <string name="naviMyMeetings"></string>
+    <string name="naviNews">Uutiset</string>
+    <string name="naviRoller">D20 Noppa</string>
+    <string name="naviFI">FI</string>
+    <string name="naviEN">EN</string>
+
+    <string name="buttonLogin">Kirjaudu</string>
+    <string name="buttonRegister">Rekisteröidy</string>
+    <string name="buttonForgotten">Palauta salasana</string>
+
+    <string-array name="dice_types">
+        <item>D20</item>
+    </string-array>
+</resources>

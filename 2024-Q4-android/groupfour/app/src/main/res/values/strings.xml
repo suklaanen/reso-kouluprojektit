@@ -1,0 +1,77 @@
+<resources>
+    <!--
+    ** About String Resources Usage **
+    - app_name      : Application's name
+    - navi...       : Navigation links
+    - title...      : Titles for sections
+    - textbox...    : Text content in textboxes
+    - button...     : Text content in buttons
+    -->
+
+    <string name="app_name">Puistotreffit koirille</string>
+
+    <string name="naviHome">Main</string>
+    <string name="naviRegister">Rekisteröidy</string>
+    <string name="naviLogin">Kirjautdu</string>
+    <string name="naviAccount">Oma tili</string>
+    <string name="naviParks">Koirapuistot</string>
+    <string name="naviMeetings">Puistotreffit</string>
+    <string name="naviMyDogs">Omat koirat</string>
+    <string name="naviMyMeetings">Omat osallistumiset</string>
+    <string name="naviNews">News</string>
+    <string name="naviRoller">D20 Roller</string>
+    <string name="naviFI">FI</string>
+    <string name="naviEN">EN</string>
+
+    <string name="titleApp">Puistotreffit koirille</string>
+    <string name="titleHome">Tervetuloa käyttämään Puistotreffit koirille -palvelua!</string>
+    <string name="titleAccountPage">Oma tili</string>
+    <string name="titleAccountDelete">Poista tili</string>
+    <string name="titleAccountVerify">Käyttäjätilin vahvistus</string>
+    <string name="titleAccountForgotten">Unohditko salasanan?</string>
+    <string name="titleAccountCreate">Rekisteröidy käyttäjäksi</string>
+    <string name="titleAccountLogin">Kirjaudu sisään</string>
+    <string name="titleAccountChangePassword">Vaihda salasanaa</string>
+    <string name="titleAccountMyDogs">Omat koirat</string>
+    <string name="titleAccountMyMeetings">Tulevat osallistumiset</string>
+    <string name="titleDogProfileCreate">Lisää uusi koira</string>
+    <string name="titleDogProfileModify">Muokkaa koiran tietoja</string>
+    <string name="titleDogProfileDelete">Poista koiran profiili</string>
+    <string name="titleParkAddNew">Lisää uusi puisto</string>
+    <string name="titleParkFind">Löydä koirapuistoja</string>
+    <string name="titleMeetingFind">Löydä puistotreffejä</string>
+    <string name="titleMeetingCreate">Luo uusi puistotapaaminen</string>
+    <string name="titleMeetingModify">Muokkaa puistotapaamista</string>
+    <string name="titleMeetingDelete">Poista puistotapaaminen</string>
+    <string name="titleMeetingJoin">Liity leikkitreffeille</string>
+    <string name="titleMeetingRemoveMe">Poistu leikkitreffeiltä</string>
+    <string name="titleMeetingCurrentMeeting">Puistotreffit</string>
+    <string name="titleMeetingCurrentDogs">Osallistuvat koirat</string>
+    <string name="titleParkdates">Puistotreffit</string>
+
+    <string name="titleNews">News from Baldur\'s Gate</string>
+    <string name="textboxHome">
+        Puistotreffit koirille tarjoaa verkostoitumista koirien omistajille ja mahdollisuuden löytää koiralleen leikkiseuraa koirapuistoihin.
+        \n\nRekisteröityneenä käyttäjänä voit lisätä koiriesi profiilit palveluun, lisätä koirapuistoja kaupungeittain, ilmoittautua mukaan leikkitreffeille sekä julkaista sellaisia.
+    </string>
+    <string name="textboxAboutLanguage">
+        You can change the app\'s language through the hamburger menu (FI / EN). However, the news will only be available in English.
+    </string>
+    <string name="textboxRoll">Roll !</string>
+    <string name="textboxBonus">Add Bonus</string>
+    <string name="textboxPenalty">Add Penalty</string>
+    <string name="textboxLoading">Loading ...</string>
+    <string name="textboxError">Error: $error</string>
+    <string name="textboxBottomBar">Roll it yey !</string>
+    <string name="criticalSuccess">Critical Success!</string>
+    <string name="criticalFailure">Critical Failure!</string>
+
+    <string name="buttonLogin">Kirjaudu</string>
+    <string name="buttonRegister">Rekisteröidy</string>
+    <string name="buttonForgotten">Palauta salasana</string>
+
+    <string-array name="dice_types">
+        <item>D20</item>
+    </string-array>
+
+</resources>
