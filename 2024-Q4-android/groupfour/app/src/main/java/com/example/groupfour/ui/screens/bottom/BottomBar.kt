@@ -18,8 +18,8 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import androidx.compose.material3.Icon
 import androidx.compose.material.icons.filled.Home
-import androidx.compose.material.icons.filled.Newspaper
-import androidx.compose.material.icons.filled.Casino
+import androidx.compose.material.icons.filled.Person
+import androidx.compose.material.icons.filled.PinDrop
 
 @Composable
 fun CustomBottomAppBar(navController: NavController) {
@@ -38,16 +38,22 @@ fun CustomBottomAppBar(navController: NavController) {
                 icon = { Icon(Icons.Filled.Home, contentDescription = "Home", modifier = Modifier.size(30.dp)) },
                 onClick = { navController.navigate("home") }
             )
+
             Spacer(modifier = Modifier.size(16.dp))
+
             BottomNavigationButton(
-                icon = { Icon(Icons.Filled.Newspaper, contentDescription = "News", modifier = Modifier.size(30.dp)) },
-                onClick = { navController.navigate("navigateAccount") }
-            )
-            Spacer(modifier = Modifier.size(16.dp))
-            BottomNavigationButton(
-                icon = { Icon(Icons.Filled.Newspaper, contentDescription = "News", modifier = Modifier.size(30.dp)) },
+                icon = { Icon(Icons.Filled.PinDrop, contentDescription = "News", modifier = Modifier.size(30.dp)) },
                 onClick = { navController.navigate("navigateMeetings") }
             )
+
+            Spacer(modifier = Modifier.size(16.dp))
+
+            BottomNavigationButton(
+                icon = { Icon(Icons.Filled.Person, contentDescription = "News", modifier = Modifier.size(30.dp)) },
+
+                onClick = { navController.navigate("navigateAccount") }
+            )
+
         }
     }
 }

@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
 import androidx.compose.runtime.Composable
@@ -82,6 +83,8 @@ fun CommonText(
     editable: Boolean = true,
     visualTransformation: VisualTransformation = VisualTransformation.None,
     trailingIcon: @Composable() (() -> Unit)? = null,
+    boxColor: Color = MaterialTheme.colorScheme.onPrimary,
+    textColor: Color = Color.Black
 ) {
     Box(
         modifier = modifier
@@ -92,17 +95,18 @@ fun CommonText(
             TextField(
                 value = value,
                 onValueChange = onValueChange,
-                textStyle = textStyle,
+                textStyle = textStyle.copy( color = boxColor),
                 modifier = Modifier.fillMaxWidth(),
                 singleLine = true,
                 trailingIcon = trailingIcon,
-                visualTransformation = visualTransformation
+                visualTransformation = visualTransformation,
             )
         } else {
             Text(
                 text = value,
                 style = textStyle,
-                modifier = Modifier.fillMaxWidth()
+                modifier = Modifier.fillMaxWidth(),
+                color = textColor,
             )
         }
     }
